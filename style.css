@@ -1,0 +1,56 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+    font-size: 16px;
+}
+.main{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 15px;
+    
+}
+h1{
+    text-decoration: underline;
+    color: red;
+}
+table{
+    line-height: 30px;
+    
+    width: 320px;
+    
+    background-color: rgb(249, 253, 253);
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;  
+    box-shadow: 10px 5px 5px rgb(85, 226, 207);
+
+}
+tr th{
+    background-color: rgb(11, 21, 110);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(49, 44, 44);
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 2px;
+    
+    
+    
+}
+tr{
+    margin: 30px;
+}
+table tr{
+    margin-top: 20px;
+}
