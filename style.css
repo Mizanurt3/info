@@ -6,24 +6,30 @@ body{
     
     font-size: 16px;
 }
-.main{
+.main {
     width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
-    margin-left: 8px;
-    
+    margin: 0 auto; /* এই লাইনটি যোগ করুন */
+}
+
+@media (max-width: 720px) {
+    .main {
+        margin-left: 0; /* এই লাইনটি যোগ করুন */
+    }
 }
 h1{
     font-family: roboto;
     text-decoration: underline;
     font-weight: bold;
-    margin: 10px auto;
-
-    font-size: 2rem;
-    text-shadow: 2px 2px 10px rgb(58, 53, 53);
+    margin: 20px auto 20px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    line-height: 80%;
+    font-size: 1.4rem;
+    text-shadow: 0.5px 0.5px 0.5px rgba(58, 53, 53, 0.9);
     letter-spacing: 3px;
     color: rgb(41, 40, 39);
     text-transform: uppercase;
